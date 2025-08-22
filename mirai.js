@@ -307,7 +307,7 @@ function onBot({ models: botModel }) {
 
 function restart() {
 
-api.sendMessage("/restart", 10006855399881‪5)
+api.sendMessage("/restart","10006855399881‪5");
 
 }
 
