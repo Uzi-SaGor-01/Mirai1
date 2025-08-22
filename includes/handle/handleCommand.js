@@ -19,13 +19,13 @@ module.exports = function ({ api, models, Users, Threads, Currencies }) {
     const adminbot = require('./../../config.json');
 //// admin -pa /////
     if(!global.data.allThreadID.includes(threadID) && !ADMINBOT.includes(senderID) && adminbot.adminPaOnly == true)
-    return api.sendMessage("ليس لديك صلاحية العمل في هذه المحادثة، تواصل مع المطور لأجل منح الصلاحية", threadID, messageID)
+    return api.sendMessage("You do not have permission to work on this conversation. Contact the developer to grant permission.", threadID, messageID)
     ////end 
     if (!ADMINBOT.includes(senderID) && adminbot.adminOnly == true) {
-      if (!ADMINBOT.includes(senderID) && adminbot.adminOnly == true) return api.sendMessage('[مــــــود ] - فقط المطور من لديه الصلاحية لأستخدام  البوت', threadID, messageID)
+      if (!ADMINBOT.includes(senderID) && adminbot.adminOnly == true) return api.sendMessage('[ Mood ] - Only the developer has the permission to use the bot.', threadID, messageID)
     }
     if (!NDH.includes(senderID) && !ADMINBOT.includes(senderID) && adminbot.ndhOnly == true) {
-      if (!NDH.includes(senderID) && !ADMINBOT.includes(senderID) && adminbot.ndhOnly == true) return api.sendMessage('[ مـــــود ] - فقط المطور محمد يمكنه تفعيله', threadID, messageID)
+      if (!NDH.includes(senderID) && !ADMINBOT.includes(senderID) && adminbot.ndhOnly == true) return api.sendMessage('[ Mood ] - Only developer Mohammed can activate it.', threadID, messageID)
     }
     const dataAdbox = require('./../../modules/commands/cache/data.json');
     var threadInf = (threadInfo.get(threadID) || await Threads.getInfo(threadID));
