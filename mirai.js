@@ -336,13 +336,13 @@ const rainbowArt = `░██████╗░█████╗░░███
 ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
 ┃ ★彡[𝙋𝙍𝙊𝙁𝙄𝙇𝙀 𝘾𝘼𝙍𝘿 ]彡★ ┃
 ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
-┃ 𝗡𝗮𝗺𝗲      : JAHIDUL ISLAM┃
+┃ NAME       : JAHIDUL ISLAM┃
 ┃
 ┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┃
-┃ 𝙁𝙖𝙘𝙚𝙗𝙤𝙤𝙠   : https://fb.com/SAGOR.DJK.FORYOU┃
-┃ 𝙂𝙞𝙩𝙃𝙪𝙗     : https://github.com/SaGorbot009 ┃
-┃ 𝙏𝙞𝙠𝙏𝙤𝙠     : https://www.tiktok.com/@11sagor_islam┃
-┃ 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢   : https://t.me/xxSaGorxx┃
+┃ FACEBOOK   : https://fb.com/SAGOR.DJK.FORYOU┃
+┃ GITHUB     : https://github.com/SaGorbot009 ┃
+┃ TIKTOK     : https://www.tiktok.com/@11sagor_islam┃
+┃ TELEGRAM   : https://t.me/xxSaGorxx┃
 ┃
 ┃ Bot create by SaGor & Fca fixed by ArYan 
 ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯`;
